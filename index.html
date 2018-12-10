@@ -49,7 +49,7 @@
             </div>
             <!-- Character Images  -->
             <div class="row">
-                    <!--Initial Images -->
+                <!--Initial Images -->
                     <div class="col-md-12 characterSelection clearfix">
                         <div class="imagebox" id="1">
                             <p>Offred</p>
@@ -92,7 +92,9 @@
         <!-- Defender  -->
 
          <div class="col-md-3">
-             <h4> Your Character:</h4>             
+             <h4> Your Character:</h4>
+             <div id="character"></div>
+             <div id="userHealth"></div>             
          </div>
 
      <!-- Attack Button   -->
@@ -101,9 +103,16 @@
             <button type="button" class="btn btn-danger" >ATTACK!</button>
             </div>
 
+            <!-- Opponents Available To Attack -->
+            <div class="col-md-3">
+                  <h4> Available Opponents:</h4> 
+                  <div id="defenderArea"></div>            
+                </div>
       <!-- Selected Opponent  -->   
            <div class="col-md-3">
-                <h4> Your Opponent:</h4>             
+                <h4> Your Opponent:</h4> 
+               <div id="defender"></div>
+             <div id="opponentHealth"></div>              
             </div>
     </div>
 

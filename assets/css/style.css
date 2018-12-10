@@ -71,3 +71,15 @@ p {
     font-size: 12pt;
     font-weight: 500;
 }
+
+.panel {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  .panel img {
+    max-height: 150px;
+    width: auto;
+  }

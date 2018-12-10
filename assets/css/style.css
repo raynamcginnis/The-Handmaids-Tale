@@ -1,5 +1,6 @@
 #logo { 
     position: relative;
+    height: 70px;
     left: 50%;
     /* margin-left: 100px; */
     display: block;
@@ -40,3 +41,33 @@
     float: left;
     color: #ffffff;
  }
+
+ img {
+   height: 150px;
+}
+
+.imagebox {
+    float: left;
+    background-color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.imagebox p {
+    margin: 0;
+    color: black;
+}
+
+.imagebox img {
+    margin: 4px 0px;
+}
+
+p {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+#hp {
+    font-size: 12pt;
+    font-weight: 500;
+}

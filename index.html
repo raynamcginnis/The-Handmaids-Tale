@@ -48,53 +48,36 @@
                 </div>
             </div>
             <!-- Character Images  -->
-                <div class="row">
-                            <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                              <img class="card-img" src="assets/images/offred.jpg" class="img-fluid" alt="Offred">
-                              <div class="card-img-overlay">
-                                <h5 class="card-title">Offred</h5>
-                                <p class="card-text">HP: 150pts</p>
-
-                                     </div>
-                            </div>
-                          </div>
-                  
-                          <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                              <img class="card-img" src="assets/images/theCommander.jpg" class="img-fluid" alt="The Commander">
-                              <div class="card-img-overlay">
-                                <h5 class="card-title">The Commander</h5>
-                                <p class="card-text">HP: 140pts</p>
-
-                                         </div>
-                          </div>
-                 </div>
-                     <div class="col-md-3">
-                <div class="card bg-dark text-white">
-                      <img class="card-img" src="assets/images/auntLydia.jpg" class="img-fluid" alt="Aunt Lydia">
-                      <div class="card-img-overlay">
-                        <h5 class="card-title">Aunt Lydia</h5>
-                        <p class="card-text">HP: 130pts</p>
-
-                      </div>
-                    </div>
-                  </div>
+            <div class="row">
+                    <!--Initial Images -->
+                    <div class="col-md-12 characterSelection clearfix">
+                        <div class="imagebox" id="1">
+                            <p>Offred</p>
+                            <img src="assets/images/offred.jpg">
+                            <p id="hp">150</p>
+                        </div>
         
-          
-                  <div class="col-md-3">
-                     <div class="card bg-dark text-white">
-                         <img class="card-img" src="assets/images/Serena.jpg" class="img-fluid" alt="Serena">
-                            <div class="card-img-overlay">
-                        <h5 class="card-title">Serena</h5>
-                        <p class="card-text">HP: 90pts</p>
+                        <div class="imagebox" id="2">
+                            <p>The Commander</p>
+                            <img src="assets/images/theCommander.jpg">
+                            <p id="hp">140</p>
+                        </div>
+        
+                        <div class="imagebox" id="3">
+                            <p>Aunt Lydia</p>
+                            <img src="assets/images/auntLydia.jpg">
+                            <p id="hp">130</p>
+                        </div>
+        
+                        <div class="imagebox" id="4">
+                            <p>Serena</p>
+                            <img src="assets/images/serena.jpg">
+                            <p id="hp">90</p>
+                        </div>
+                    </div>
+                </div>
 
-                         </div>
-                  </div>
-         </div>
-    </div>
-
-           <hr>
+                          <hr>
 
 <!-- Opponent and Defender Area  -->
     <div class="row">
@@ -125,9 +108,13 @@
     </div>
 
 <!-- Attack Status  -->
-
+<div class="row">
+    <div class ="col-md-12">
     <div id="status">
+        <h4>Results:</h4>
         </div>
+    </div>
+    </div>
 
 
 <!-- Space between container and footer  -->

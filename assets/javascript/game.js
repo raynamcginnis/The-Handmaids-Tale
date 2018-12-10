@@ -1,0 +1,57 @@
+//ASSIGN VARIABLES
+
+//create array of characters and character trails included name, health, attack, counter attack, image
+// attack points should increase every time by adding itself to the total, counter attack power never changes
+
+var characters = {
+ Offred: {
+    hp: 150,
+    attack: 15,
+    counterAttack: 10,
+    name: "Offred"
+    id: 1
+ }
+
+  theCommander: {
+      hp: 140,
+      attack: 14,
+      counterAttack: 10,
+      name: "The Commander"
+      id: 2
+  }
+
+   auntLydia: {
+       hp: 130,
+       attack: 13,
+       counterAttack: 20,
+       name: "Aunt Lydia"
+       id: 3
+   } 
+  
+   Serena: {
+       hp: 90,
+       attack: 16
+       counterAttack: 18
+       name: "Serena"
+       id: 4
+   }
+
+}
+
+//Selecting the characters
+
+//Move remaining characters to opponent div
+
+//use on click to select opponent to attack
+
+//functionality of attack button
+
+//select next opponent from selection area
+
+//win or lose
+
+//create read me files
+
+// add to portfolio
+
+

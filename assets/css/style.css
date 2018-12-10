@@ -1,0 +1,42 @@
+#logo { 
+    position: relative;
+    left: 50%;
+    /* margin-left: 100px; */
+    display: block;
+    Overflow: auto;
+}
+
+#howToPlay {
+    margin-top: 15px;
+}
+
+.navbar img {
+    display:block;
+    margin: 0px auto;
+}
+
+.card-img-overlay {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    /* vertical-align: bottom; */
+}
+
+.navbar-text {
+    text-align: center;
+    width: 100%;
+}
+ button {
+     align-content: center
+ }
+
+ #defenderOpponent {
+    margin-top: 15px;
+ }
+
+ #RPG {
+    position: relative; 
+    float: left;
+    color: #ffffff;
+ }

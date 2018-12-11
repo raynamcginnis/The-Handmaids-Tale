@@ -6,7 +6,7 @@ $(document).ready(function () {
 var offred;
 var theCommander;
 var auntLydia;
-var serena
+var serena;
 var character = null;
 var characterSelection = [];
 var defender = null;
@@ -18,8 +18,7 @@ var defenders = [];
 
 function startGame() {
 
-var characters = {
- offred: {
+ offred = {
     healthPoints: 150,
     baseAttack: 15,
     attackPower: 15,
@@ -29,7 +28,7 @@ var characters = {
     img: "./assets/images/offred.jpg"
  }
 
-  theCommander: {
+  theCommander = {
       healthPoints: 140,
       baseAttack: 14,
       attackPower: 14,
@@ -39,7 +38,7 @@ var characters = {
       img: "./assets/images/theCommander.jpg"
   }
 
-   auntLydia: {
+   auntLydia = {
        healthPoints: 130,
        baseAttack: 13,
        attackPower: 13,
@@ -49,7 +48,7 @@ var characters = {
        img: "./assets/images/auntLydia.jpg"
    } 
   
-   Serena: {
+   Serena = {
        healthPoints: 90,
        baseAttack: 16
        attackPower: 16,
@@ -66,11 +65,15 @@ defenders = [];
 defender = null;
 characterSelection = [offred, theCommander, auntLydia, serena];
 
-$("#character", "#defenderArea", "#defender", "#status").empty();
+//$("#character, #defenderArea, #defender, #status").empty();
+$("#character").empty();
+$("#defenderArea").empty();
+$("#defender").empty();
+$("#status").empty();
 
 //Selecting the characters
 
-$.each(".characterSelection", function (index, character) {
+$.each(characterSelection, function (index, character) {
       
 // create a div for each character to display character selection at start of the game
 

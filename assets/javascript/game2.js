@@ -18,43 +18,43 @@ var defenders = [];
 function startGame() {
 
  offred = {
-    healthPoints: 140,
+    healthPoints: 150,
     baseAttack: 15,
     attackPower: 15,
-    counterAttackPower: 14,
+    counterAttackPower: 10,
     name: "Offred",
     id: 0,
     img: "./assets/images/offred.jpg"
  }
 
   theCommander = {
-      healthPoints: 130,
-      baseAttack: 13,
-      attackPower: 13,
-      counterAttackPower: 12,
+      healthPoints: 140,
+      baseAttack: 14,
+      attackPower: 14,
+      counterAttackPower: 10,
       name: "The Commander",
       id: 1,
       img: "./assets/images/theCommander.jpg"
   }
 
    auntLydia = {
-       healthPoints: 120,
-       baseAttack: 14,
-       attackPower: 14,
-       counterAttackPower: 16,
+       healthPoints: 130,
+       baseAttack: 13,
+       attackPower: 13,
+       counterAttackPower: 20,
        name: "Aunt Lydia",
        id: 2,
        img: "./assets/images/auntLydia.jpg"
    }
   
-   serena = {
-       healthPoints: 110,
+   Serena = {
+       healthPoints: 90,
        baseAttack: 16,
        attackPower: 16,
        counterAttackPower: 18,
        name: "Serena",
        id: 3,
-       img: "./assets/images/serena.jpg"
+       img: "./assets/images/offred.jpg"
    }
 
 //reset to begin game
@@ -168,7 +168,7 @@ $("#attack").on("click", function() {
                 $("#restart").show();
             } else if(defender.healthPoints <= 0) {	
                 // when defender is defeated
-                status = "You have defeated " + defender.name + ". Pick your next opponent!";
+                status = "You have defeated " + defender.name + "!";
 
                 // clear defender selection
                 $("#defender").empty();
@@ -196,3 +196,7 @@ $("#restart").on("click", function () {
 })
 
 });
+
+//create read me files
+
+// add to portfolio

@@ -83,3 +83,11 @@ p {
     max-height: 150px;
     width: auto;
   }
+
+  hr {
+      margin-top: 10px;
+  }
+
+  #sectionTitle {
+      min-height: 50px;
+  }

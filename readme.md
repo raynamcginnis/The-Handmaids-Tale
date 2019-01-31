@@ -1,5 +1,7 @@
 # jQuery Assignment
 
+link to completed assignment: https://raynamcginnis.github.io/unit-4-game/
+
 ### Overview
 
 Star Wars RPG Game (Challenge)

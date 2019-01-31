@@ -98,7 +98,7 @@ $(".character").on("click", function() {
 
         // loop through character array
         $.each(characterSelection, function(index, character) {
-//Move other opponents to enemies array
+        //Move other opponents to enemies array
                 if(character.id !== charId) {
                 defenders.push(character);
                 $("#"+character.id).removeClass("character panel-success").addClass("defender panel-danger").appendTo("#defenderArea");
@@ -116,9 +116,9 @@ $(".defender").on("click", function() {
         console.log(this);
         defender = characterSelection[defenderId];
         $("#" + defenderId).appendTo("#defender");
+             }
+        });
     }
-});
-}
 });
 
 //hide restart button
